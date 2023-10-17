@@ -16,6 +16,12 @@ The first scene includes high level representation of time by depicting a video 
 
 The third scene has the role of the relief as everything stops and a portion of a poem is heard as soon as person interacts with the sensing device. In the end of the scene or if the person stops interacting the installation starts all over again from the first scene.
 
+### Hardware setup
+The hardware setup comprises of a laptop, an Arduino microcontroller, an [AI-camera](https://shop.luxonis.com/collections/home-page/products/oak-d-lite-1) and several clocks. The installation also encompasses few other relevant objects and lights.
+
+### Implementation details
+The laptop runs the score project and also serves as host for the Arduino and the AI-camera. The Arduino is ment to operate a relay switch. The switch controlls the power delivery to the clocks, essentially stopping and starting their operation upon request via a serial message. The AI-camera runs a face landmarks detection model and a small script that runs on the laptop identifies the blink of the eyes. The script also serves as a controller using the OSC protocol and implements two commands, ```eyes-closed``` and ```eyes opened'`'. These commands are registered in Score project and connected to relevant triggers of the third scene. Essentially the third scene intervenes when the eyes of the person get closed and plays while the eyes remain closed. The installation resets when the eyes open or when the third scene finishes.
+
 ## Existing setup
 The installation was originally set-up for the Makrovoutes festival in 2022.
 
