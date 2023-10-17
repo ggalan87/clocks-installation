@@ -26,3 +26,9 @@ The laptop runs the score project and also serves as host for the Arduino and th
 The installation was originally set-up for the Makrovoutes festival in 2022.
 
 An overview of the installation is depicted in the following videos.
+
+## TODO:
+* Better presentation of the need for interaction
+* Initialize and control lighting sources besided sound and clocks
+* Standardize the setup such that it can be reproduced more easily
+* Enrich narration using objects, sounds, printed documents, photos etc
