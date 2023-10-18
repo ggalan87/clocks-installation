@@ -1,7 +1,7 @@
 # Clocks installation
 This is an on-going installation that is considered in alpha-version.
 
-The installation deals with the fealings that emerge due to time that passes and time that is running out.
+The installation deals with the feelings that emerge due to time that passes and time that is running out.
 
 The installation comprises of natural objects (clocks), a sensing device (AI-camera) and a microcontroller (Arduino) to orchestrate interactive visual and auditory experiences.
 
